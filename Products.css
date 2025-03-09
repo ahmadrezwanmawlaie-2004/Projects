@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.body{
+    background-color: #FBEEE6;
+}
+
+.headSection {
+    border-bottom: 1px white solid;
+}
+.custom-bg {
+    height: 500px;
+    background-image: url('logo.png');
+    /* Ensure the path is correct */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+}
+.logotxt3 {
+    color: #aa7959;
+    font-family: 'Irish Grover', cursive;
+    font-weight: bolder;
+}
+.logotxt5{
+    color: #ca9673;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.logotxt4{
+    color: #dd884f;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.navLinks a{
+    margin:25px;
+}
+.linkStyle{
+    color:white;
+    text-decoration-line: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.linkStyle:hover{
+    background-color:rgb(236, 222, 204);
+    padding:5px;
+    border-radius: 10px;
+    margin:20px;
+}
+.product2Design {
+    /* height: 500px; */
+    background: radial-gradient(circle at bottom left, #A3693B 20%, transparent 20%),
+        radial-gradient(circle at top left, #FFECCE 35%, transparent 20%),
+        linear-gradient(to bottom, #F7DBCF, #C59564);
+    border-radius: 10px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.product3Design {
+    /* height: 500px; */
+    background: radial-gradient(circle at bottom left, #cf33a8 20%, transparent 20%),
+        radial-gradient(circle at top left, #f388cf 35%, transparent 20%),
+        linear-gradient(to bottom, #f59af8, #ac1a9f);
+    border-radius: 10px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.productTitle1{
+    color: #946947;
+}
+.productTitle2{
+    color: #8d1264;
+}
+
+.h6 {
+    color: #ce8040;
+}
+.h61{
+    color: #a30ba8;
+}
+.product1{
+    border-bottom: 1px white solid;
+}
+.product2 {
+    border-bottom: 1px white solid;
+    padding-bottom: 40px;
+}
+.product3 {
+    border-bottom: 1px white solid;
+}
+.product33{
+    color:#504242;
+}
+.product333{
+    color: #5f5761;
+}
+.nextLast{
+    font-size: xx-large;
+    font-weight: bolder;
+    color:#946947;
+    cursor: pointer;
+}
+.nextLast:active{
+    border:white 5px solid;
+    cursor: pointer;
+}
+.productBorder{
+    border: rgb(247, 236, 207) 1px solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.productBorder:hover{
+    background-color: #f3ebe3;
+}
+.productBorder img{
+    border-radius: 10%;
+    
+}
+.badge{
+    background-color: blue;
+}
+.badge:hover{
+    background-color: #F7DBCF;
+}
+.endS{
+    background: radial-gradient(circle at top left, #6fc9a6 20%, transparent 40%),
+    radial-gradient(circle at bottom right, #F7DBCF 20%, transparent 40%),
+    linear-gradient(to bottom,
+        #F7DBCF,
+        #6fc9a6);
+
+}
+

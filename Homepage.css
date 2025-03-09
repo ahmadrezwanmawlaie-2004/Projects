@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #FBEEE6;
+}
+.headSection{
+    border-bottom:1px white solid;
+}
+.detailSection{
+    border-bottom: 1px white solid;
+}
+.footerSection{
+    border-bottom: 1px white solid;
+    background-color: #E6D5C4;
+}
+.productSection{
+    border-bottom: 1px white solid;
+}
+.logotxt1{
+    color:#7e3204;
+    font-family: 'Irish Grover', cursive;
+}
+.logotxt3 {
+    color: #ffffff;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.logotxt2{
+    color: #703008;
+    font-family: 'Irish Grover', cursive;
+}
+.logotxt4 {
+    color: #5A3E2B;
+    font-family: 'Irish Grover', cursive;
+}
+.navLinks{
+    margin-left: 20px;
+    background-color: #FBEEE6;
+}
+.navLinks a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #5D4037;
+    padding:10px;
+}
+.navLinks a:hover{
+    background-color: #5D4037;
+    color:white;
+    border:#E1B599 solid 1px;
+}
+.linkActive{
+    color: #5D4037;
+    font-size: 20px;
+}
+.linkActive:hover{
+    background-color: #5D4037;
+        color: white;
+        border: #E1B599 solid 1px;
+}
+.detailImage{
+    box-shadow: 10px 10px 12px #dd7b5e;
+}
+.productColor{
+    color:#faecc7;
+}
+.productContent{
+    color:#4E4E4E;
+    text-align: justify;
+    max-width: 300px;
+}
+.detailContent{
+    text-align: justify;
+}
+.product1Detail{
+    /* height: 233px;
+    width:200px; */
+    background-color: #E6D5C4;
+}
+.d-grid button{
+    max-width:350px;
+    background-color: #E8D5C9;
+    border-radius: 4px;
+    color:white;
+    border:white;
+}
+.col-3 a{
+    color:#454545;
+    text-decoration-line: none;
+}
+.footerhead{
+    font-weight: bold;
+}
+.copyright{
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+}
+.footerimage{
+    border-radius: 50%;
+}
+.paginationstyle{
+    cursor: pointer;
+}
+.newsbtn{
+    min-width: 10px;
+    min-height: 10px;
+    max-height: 10px;
+    max-width: 10px;
+    border-radius: 50%;
+    background-color:#7e3204;
+    margin:5px;
+}
+.newsbtn:hover{
+    background-color: #E1B599;
+}
