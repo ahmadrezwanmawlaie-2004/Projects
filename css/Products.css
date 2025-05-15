@@ -79,9 +79,7 @@
 .h61{
     color: #a30ba8;
 }
-.product1{
-    border-bottom: 1px white solid;
-}
+
 .product2 {
     border-bottom: 1px white solid;
     padding-bottom: 40px;
@@ -130,5 +128,7 @@
         #F7DBCF,
         #6fc9a6);
 
-}
+};
+
+
 
